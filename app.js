@@ -96,6 +96,6 @@ function sendMessage(sender,text) {
 };
 
 var token = "EAATmuKTrQzwBAB4FFM0w1QWUMxNmht7KHAyzaD5AlQ8MJ3ebzUwxBFacZBI2lJIixxCze1STw0v4GOpb2jpjKa1FhZApdMH7Dkq6BZCFVFC5vaPrCFvPQncI3Kw3tmZCCHRXOxOZBkq7NbL5Wxr4mdK2S0ZB8UuAiboul86s0zjoXM0detqZBNq";
-var host = ('https://watsontestapp.eu-gb.mybluemix.net/' || 'localhost');
+var host = ('https://cnxtest.eu-gb.mybluemix.net/' || 'localhost');
 var port = (appEnv.port || 3000);
 app.listen(port, host);
